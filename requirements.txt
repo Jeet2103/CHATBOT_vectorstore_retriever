@@ -1,7 +1,6 @@
 langchain
 langchain-community
 langchain-core
-streamlit
 langchain_chroma
 pypdf
 langchain_groq
