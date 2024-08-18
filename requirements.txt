@@ -1,0 +1,5 @@
+langchian
+langchian-community
+langchian-core
+streamlit
+langchian_faiss
