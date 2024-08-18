@@ -2,4 +2,8 @@ langchian
 langchian-community
 langchian-core
 streamlit
-langchian_faiss
+langchian_chroma
+pypdf
+langchain_groq
+dotenv
+langchain_huggingface
