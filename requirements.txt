@@ -6,3 +6,4 @@ pypdf
 langchain_groq
 dotenv
 langchain_huggingface
+streamlit
