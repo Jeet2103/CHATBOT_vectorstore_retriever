@@ -4,6 +4,5 @@ langchain-core
 langchain_chroma
 pypdf
 langchain_groq
-dotenv
 langchain_huggingface
 streamlit
