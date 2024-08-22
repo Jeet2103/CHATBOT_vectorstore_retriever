@@ -22,7 +22,7 @@ HF_TOKEN = st.secrets['HF_TOKEN']
 ## Load the GROQ API Key
 # os.environ['GROQ_API_KEY'] = os.getenv("GROQ_API_KEY")
 os.environ['GROQ_API_KEY'] = GROQ_API_KEY
-# groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY")
 
 ## If you do not have open AI key use the below Huggingface embedding
 # os.environ['HF_TOKEN'] = os.getenv("HF_TOKEN")
