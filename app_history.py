@@ -22,7 +22,7 @@ HF_TOKEN = st.secrets['HF_TOKEN']
 ## Load the GROQ API Key
 # os.environ['GROQ_API_KEY'] = os.getenv("GROQ_API_KEY")
 os.environ['GROQ_API_KEY'] = GROQ_API_KEY
-groq_api_key = os.getenv("GROQ_API_KEY")
+# groq_api_key = os.getenv("GROQ_API_KEY")
 
 ## If you do not have open AI key use the below Huggingface embedding
 # os.environ['HF_TOKEN'] = os.getenv("HF_TOKEN")
@@ -117,9 +117,9 @@ if uploaded_files:
             output_messages_key="answer"
         )
     
-    user_input = st.text_input("Your question:")
-    submit_button = st.button("Submit")
-    if user_input and submit_button:
+    user_input = st.chat_input(placeholder="Your question:")
+    # submit_button = st.button("Submit")
+    if user_input : #and submit_button:
         session_history=get_session_history(session_id)
         response = conversational_rag_chain.invoke(
             {"input": user_input},
